@@ -60,8 +60,7 @@ public class PlaceholderTextView: UITextView {
     }
 
     fileprivate func setup() {
-        contentInset = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0);
-        font = UIFont.systemFont(ofSize: 12.0)
+        contentInset = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
         
         placeholderLabel.font = self.font
         placeholderLabel.textColor = placeholderColor
