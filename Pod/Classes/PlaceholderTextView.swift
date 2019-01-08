@@ -8,8 +8,8 @@
 import UIKit
 
 public class PlaceholderTextView: UITextView {
-    public var placeholderLeftMargin: CGFloat = 4.0 { didSet { placeholderSizeToFit() } }
-    public var placeholderTopMargin: CGFloat = 8.0 { didSet { placeholderSizeToFit() } }
+    public var placeholderLeftMargin: CGFloat = 4.0
+    public var placeholderTopMargin: CGFloat = 8.0
     
     lazy var placeholderLabel: UILabel = {
         let label = UILabel()
